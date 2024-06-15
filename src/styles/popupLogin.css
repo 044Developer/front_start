@@ -1,0 +1,4 @@
+.login-container .form-box.login {
+  transition: transform 0.2s ease;
+  transform: translateX(0);
+}

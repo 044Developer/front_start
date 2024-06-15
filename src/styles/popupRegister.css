@@ -1,0 +1,32 @@
+.login-container.registration-active {
+  height: 520px;
+}
+
+.login-container.registration-active .form-box.login {
+  transform: none;
+  transform: translateX(-400px);
+}
+
+.login-container .form-box.register {
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+}
+
+.login-register {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: black;
+  margin: 25px 0 10px;
+}
+
+.login-register p a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-register a:hover {
+  text-decoration: underline;
+}
