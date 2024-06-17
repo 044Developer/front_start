@@ -1,7 +1,15 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@import url("navigation.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --first-color: rgba(63, 63, 222, 0.585);
 }
 
 header {
@@ -20,7 +28,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: rgba(63, 63, 222, 0.585);
+  /* min-height: calc(50vh - 50px); */
+  background: var(--first-color);
   background-size: cover;
   background-position: center;
 }

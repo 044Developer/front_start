@@ -51,3 +51,12 @@
   background: #fff;
   color: #162938;
 }
+
+.nav-list-item {
+  list-style-type: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
